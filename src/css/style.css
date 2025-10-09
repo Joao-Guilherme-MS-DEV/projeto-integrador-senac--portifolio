@@ -1,0 +1,85 @@
+/* body {
+    height: 95vh;
+    width: 95vw;
+    background-image: url("../imagens/fundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+} */
+
+.projeto img{
+    width: 100px;
+    height: 200px;
+}
+
+html{
+    color: #fff;
+}
+
+body{
+    background-color: #282828;
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto; /* Essa linha só funciona se tiver uma largura (max-width por exemplo) */
+    max-width: 1120px; /* Largura */
+}
+
+.cabecalho{
+    background-color: blue;
+    display: flex; /* flex-direction: row; por padrão */
+    justify-content: space-between; /* Espaço entre os elementos */
+    align-items: center; /* Alinha os itens verticalmente (no meio do container) */
+    padding: 30px 15px;
+}
+
+.cabecalho .logo{
+    background-color: black;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%; /* Deixa o elemento redondo */
+    border: 2px solid #fff;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 55px; /* Alinha o texto verticalmente */
+
+    font-family: "Raleway", sans-serif;
+    transition: 0.2s;
+}
+
+.cabecalho a:hover .logo{
+    color: #9443d8;
+    border: 2px solid #9443d8;
+}
+
+.cabecalho .menu ul{
+    background-color: red;
+}
+
+.cabecalho .menu li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    transition: 0.2s;
+}
+
+.cabecalho .menu li a:hover{
+    background-color: #9443d8;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.home{
+    background-color: green;
+    display: flex;
+    min-height: calc(100vh - 125px); /* Altura mínima de 100% da tela */
+    align-items: center; /* Alinha os itens verticalmente (no meio do container) */
+    gap: 50px; /* Espaçamento entre os elementos */
+}
+
+.home .informacoes{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    padding: o 15px;
+    max-width: 50%; /* Repeitando qualquer largura */
+}
