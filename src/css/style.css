@@ -114,6 +114,9 @@ body{
 
 .home .foto.sombra-interna{ /* tá sem espaço pq são duas classes para um elemento só. */
     background: linear-gradient(135deg, #0a0225, #02435f, #26f6fd); /* TIPOS DE GRADIENTE https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient */
+
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
 }
 
 .projetos{
@@ -186,7 +189,7 @@ body{
     padding: 20px;
     font-size: 18px;
     font-weight: 600;
-    margin: 0 auto;
+    margin: 15px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,9 +201,29 @@ body{
     transition: 0.3s;
 }
 
-.projeto .btn-mostrar-projetos.remover{
+.projetos .btn-mostrar-projetos.remover{
     display: none;
 }
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+/*        Agora continuar pelo responsivo.css (da aula 3)        */
+/* ************************************************************* */
+
+
+
+/* Botão seta-home fixo */
 
 .b-home{
     position: fixed;
@@ -237,3 +260,5 @@ body{
     filter: invert(0);
     /* Inverte a cor da imagem (de branco para preto) */
 }
+
+/* Fim do botão seta-home fixo */
