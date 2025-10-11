@@ -4,6 +4,53 @@
   }
   
   .home {
-    
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    gap: 30px;
+  }
+
+  .home .informacoes {
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    gap: 30px;
+  }
+
+  .projetos .container-projetos {
+    padding: 0 30px;
+  }
+}
+
+@media(max-width: 425px) {
+  .cabecalho .logo {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cabecalho h1.logo{
+    font-size: 23px;
+  }
+
+  .home .informacoes h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .home .informacoes p {
+    width: 280px;
+    font-size: 16px;
+    margin: 0px;
+  }
+
+  .home .container-foto img {
+    max-width: 320px;
+  }
+
+  .projetos {
+    padding: 30px;
   }
 }
