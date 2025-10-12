@@ -1,8 +1,8 @@
-@media(max-width: 1280px) {
+@media (max-width: 1280px) {
   .cabecalho {
     padding: 30px;
   }
-  
+
   .home {
     flex-direction: column;
     align-items: center;
@@ -11,6 +11,7 @@
   }
 
   .home .informacoes {
+    text-align: center;
     flex-direction: column;
     align-items: center;
     margin: 50px 0;
@@ -22,7 +23,7 @@
   }
 }
 
-@media(max-width: 425px) {
+@media (max-width: 425px) {
   .cabecalho .logo {
     width: 45px;
     height: 45px;
@@ -31,7 +32,7 @@
     align-items: center;
   }
 
-  .cabecalho h1.logo{
+  .cabecalho h1.logo {
     font-size: 23px;
   }
 
@@ -44,6 +45,23 @@
     width: 280px;
     font-size: 16px;
     margin: 0px;
+  }
+
+  .home .informacoes .redes-sociais i {
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .home .informacoes .redes-sociais i.fab.fa-github::before {
+    margin-left: -1.8px;
+  }
+
+  .home .informacoes .redes-sociais i.fab.fa-instagram::before {
+    margin-left: -1.4px;
   }
 
   .home .container-foto img {
