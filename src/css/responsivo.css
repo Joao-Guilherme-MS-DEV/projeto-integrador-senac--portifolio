@@ -54,19 +54,21 @@
   }
 
   .home .informacoes .redes-sociais i {
-    font-size: 22px;
-    width: 40px;
-    height: 40px;
+    font-size: 30px;
+    width: 45px;
+    height: 45px;
     display: inline-block;
     text-align: center;
     line-height: 20px;
   }
 
   .home .informacoes .redes-sociais i.fab.fa-github::before {
-    margin-left: -1.8px;
+    margin-left: -3px;
   }
 
-  .home .informacoes .redes-sociais i.fab.fa-instagram::before {
+  .home .informacoes .redes-sociais 
+  i.fab.fa-instagram::before, 
+  i.fab.fa-whatsapp::before {
     margin-left: -1.4px;
   }
 
@@ -78,3 +80,43 @@
     padding: 30px;
   }
 }
+
+/* ↓ Botão seta-home fixo ↓ */
+
+.b-home{
+    position: fixed;
+    bottom: 20px;
+    right: 18px;
+    background-color: #3b0e60;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 5px; 
+    box-shadow: 0 0 10px #9443d8;
+    transition: 0.3s;
+}
+
+.b-home:hover{
+    background-color: #fff;
+    color: #9443d8;
+    box-shadow: 0 0 20px #fff;
+    transform: scale(1.05);
+}
+
+.b-home img{
+    width: 15px;
+    height: 15px;
+    filter: invert(1);
+    /* Inverte a cor da imagem (de preto para branco) */
+
+    transition: 0.3s;
+
+
+}
+
+.b-home:hover img{
+    filter: invert(0);
+    /* Inverte a cor da imagem (de branco para preto) */
+}
+
+/* Fim do botão seta-home fixo */
