@@ -28,7 +28,7 @@ body{
     line-height: 55px; /* Alinha o texto verticalmente */
 
     font-family: "Raleway", sans-serif;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .cabecalho a:hover .logo{
