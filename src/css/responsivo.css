@@ -37,9 +37,14 @@
   }
 
   .home .informacoes h1 {
-    font-size: 22px;
+    font-size: 30px;
     text-align: center;
-    font-weight: 850;
+  }
+  
+  .home .informacoes p {
+    width: 280px;
+    font-size: 16px;
+    margin: 0px;
   }
 
   .home .informacoes p {
@@ -57,18 +62,14 @@
     line-height: 20px;
   }
 
-  .home .informacoes .redes-sociais i.fab.fa-whatsapp::before, i.fab.fa-instagram::before{
-    display: inline-block;
-    position: absolute;
-    transform: translateX(-10px) translateY(-1.1px);
+  .home .informacoes .redes-sociais i.fab.fa-github::before {
+    margin-left: -1.8px;
   }
 
-  .home .informacoes .redes-sociais i.fab.fa-github::before {
-    display: inline-block;
-    position: absolute;
-    transform: translateX(-11.2px) translateY(-1px);
+  .home .informacoes .redes-sociais i.fab.fa-instagram::before {
+    margin-left: -1.4px;
   }
-  
+
   .home .container-foto img {
     max-width: 320px;
   }
