@@ -1,5 +1,5 @@
-[<img src = "gif-pi-portifolio.gif" alt="gif do portifólio" href="https://joao-guilherme-ms-dev.github.io/projeto-integrador-senac--portifolio/">
-]
+[<img src = "gif-pi-portifolio.gif" alt="gif do portifólio">]
+(https://joao-guilherme-ms-dev.github.io/projeto-integrador-senac--portifolio/)
 
 ## Tecnologias ultilizadas
 - HTML
