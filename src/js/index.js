@@ -33,6 +33,7 @@ function esconderBotao() {
   botaoMostrarProjetos.classList.add('remover');
 }
 
+// Configurações do botão de voltar ao topo
 // Espera o carregamento completo da página
 window.addEventListener("DOMContentLoaded", () => {
   const botao = document.querySelector(".b-home");
